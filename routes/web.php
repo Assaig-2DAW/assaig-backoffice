@@ -17,7 +17,7 @@ use \App\Http\Controllers\AuthenticateController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('prueba');
 })->name('home');
 
 Route::get('/login', function () {
